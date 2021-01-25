@@ -14,5 +14,3 @@ def find_even_values(src)
     r_idx += 1 
   end 
 end
-
-find_even_values([ [10, 11], [99, 50, 3, 4], [23, 41] ])
