@@ -9,7 +9,9 @@ def find_even_values(src)
       if src[r_idx][ele_idx] % 2 == 0 
         p src[r_idx][ele_idx]
       end
+      ele_idx += 1
     end 
+    r_idx += 1 
   end 
 end
 
